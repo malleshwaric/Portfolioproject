@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Creative CV</title>
+    <title>Malleshwari C — Data Analyst</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -12,26 +12,80 @@
     <link href="css/main.css?ver=1.1.0" rel="stylesheet">
     <noscript>
       <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }qqa
+        [data-aos] { opacity: 1 !important; transform: translate(0) scale(1) !important; }
       </style>
     </noscript>
+    <style>
+      .analytics-section { background: #f8fafc; padding: 64px 0; }
+      .project-card {
+        background: #fff;
+        border-radius: 14px;
+        border: 1px solid #e2e8f0;
+        padding: 28px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: box-shadow 0.2s, transform 0.2s;
+      }
+      .project-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.10); transform: translateY(-3px); }
+      .project-icon { font-size: 2rem; margin-bottom: 10px; }
+      .project-badge {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 3px 10px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      .badge-india { background: #dcfce7; color: #166534; }
+      .badge-global { background: #dbeafe; color: #1e40af; }
+      .project-title { font-size: 15px; font-weight: 700; margin-bottom: 8px; color: #1e293b; }
+      .project-desc { font-size: 13px; color: #64748b; line-height: 1.65; flex: 1; margin-bottom: 18px; }
+      .project-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+      .tag {
+        font-size: 10px; font-weight: 600;
+        padding: 3px 8px; border-radius: 4px;
+        background: #f1f5f9; color: #475569;
+        border: 1px solid #e2e8f0;
+      }
+      .btn-dashboard {
+        background: #22c55e; color: #fff; border: none;
+        border-radius: 6px; font-size: 12px; font-weight: 600;
+        padding: 7px 14px; text-decoration: none;
+        transition: background 0.2s;
+        display: inline-block;
+      }
+      .btn-dashboard:hover { background: #16a34a; color: #fff; text-decoration: none; }
+      .btn-github {
+        background: transparent; color: #475569;
+        border: 1px solid #e2e8f0; border-radius: 6px;
+        font-size: 12px; font-weight: 600;
+        padding: 7px 14px; text-decoration: none;
+        transition: border-color 0.2s;
+        display: inline-block;
+      }
+      .btn-github:hover { border-color: #94a3b8; color: #1e293b; text-decoration: none; }
+      .section-divider { border: none; border-top: 1px solid #e2e8f0; margin: 0; }
+      .skill-analytics .progress-bar { background: #22c55e; }
+    </style>
   </head>
   <body id="top">
     <header>
       <div class="profile-page sidebar-collapse">
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
           <div class="container">
-    
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
-            </div>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-bar bar1"></span>
+              <span class="navbar-toggler-bar bar2"></span>
+              <span class="navbar-toggler-bar bar3"></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Projects</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#analytics">Projects</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
               </ul>
@@ -40,390 +94,56 @@
         </nav>
       </div>
     </header>
+
     <div class="page-content">
-      <div>
-<div class="profile-page">
-  <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
-      <div class="container">
-        <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="photo1.png" alt="Image"/></a></div>
-          <div class="h2 title">Malleshwari  C</div>
-          <p class="category text-white">Portfolio of Malleshwari, Certified Full Stack Developer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
-        </div>
-      </div>
-   
-  </div>
-</div>
-<div class="section" id="about">
-  <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>Hello! I'm Malleshwari C</p>
-            <p></p>Certified Full Stack Java Developer</p>
-         
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image"><a href="#"><img src="photo1.png" alt="Malleshwari C"/></a></div>
+                <div class="h2 title">Malleshwari C</div>
+                <p class="category text-white">Data Analyst · SQL · Python · Power BI · Bengaluru</p>
+                <a class="btn btn-primary smooth-scroll mr-2" href="#analytics" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">View Projects</a>
+                <a class="btn btn-outline-white smooth-scroll" href="#contact">Contact Me</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
+      </div>
+
+      <!-- ABOUT -->
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
             <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">22</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8">malleshwaric2001@gmail.com</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-              <div class="col-sm-8">9876543210</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">Bangalore,Karnataka</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">English, Kanadda, Telugu</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="skill">
-  <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div>
-    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>Hi, I'm Malleshwari C — a Data Analyst based in Bengaluru, Karnataka. I work with SQL, Python, and Power BI to turn raw data into clear business insights.</p>
+                  <p>My background is in supply chain and operations, which gives me a practical lens for analytics — I care about what the numbers mean for actual decisions, not just the numbers themselves.</p>
+                  <p>I've built end-to-end analytics projects across retail, logistics, banking, fintech, and HR — covering everything from schema design and data pipelines to interactive dashboards and stakeholder presentations.</p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">SASS</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section" id="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Projects</div>
-        <div class="nav-align-center">
-          
-        </div>
-      </div>
-    </div>
-    <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
-        <div class="ml-auto mr-auto">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/Priya9096/demopro">
-                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Recent Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Startup Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Food Order Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Web Advertising Project</div>
-                      <p>Web Development</p>
-                    </figcaption>
-                  </figure></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- DATA ANALYTICS PROJECTS SECTION -->
-<div class="section" id="analytics" style="background:#f8f9fa; padding: 60px 0;">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 ml-auto mr-auto text-center">
-        <div class="h4 mb-2 title">Data Analytics Portfolio</div>
-        <p class="text-muted mb-5">End-to-end projects — SQL · Python · Power BI · Interactive Dashboards</p>
-      </div>
-    </div>
-    <div class="row">
-
-      <!-- ShopKart -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm" style="border-radius:12px; border:none;">
-          <div class="card-body d-flex flex-column p-4">
-            <div style="font-size:2rem; margin-bottom:12px;">🛒</div>
-            <span class="badge badge-success mb-2" style="width:fit-content; font-size:10px;">India</span>
-            <h5 class="card-title" style="font-weight:700; font-size:15px;">ShopKart India — Retail & E-Commerce</h5>
-            <p class="card-text text-muted" style="font-size:13px; flex:1;">Revenue trends, category performance, customer RFM segmentation, return rates, and discount impact. 1K customers · 5K orders · 7 categories.</p>
-            <div class="mt-3 d-flex gap-2 flex-wrap">
-              <a href="https://malleshwaric.github.io/shopkart-india-analytics/dashboard.html" target="_blank" class="btn btn-success btn-sm" style="border-radius:6px; font-size:12px;">🚀 Live Dashboard</a>
-              <a href="https://github.com/malleshwaric/shopkart-india-analytics" target="_blank" class="btn btn-outline-secondary btn-sm" style="border-radius:6px; font-size:12px;">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SwiftMove -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm" style="border-radius:12px; border:none;">
-          <div class="card-body d-flex flex-column p-4">
-            <div style="font-size:2rem; margin-bottom:12px;">🚚</div>
-            <span class="badge badge-success mb-2" style="width:fit-content; font-size:10px;">India</span>
-            <h5 class="card-title" style="font-weight:700; font-size:15px;">SwiftMove India — Logistics Analytics</h5>
-            <p class="card-text text-muted" style="font-size:13px; flex:1;">On-time delivery rates, carrier scorecards, cost-per-shipment, SLA breaches, and warehouse utilisation. 6K shipments · 8 carriers.</p>
-            <div class="mt-3 d-flex gap-2 flex-wrap">
-              <a href="https://malleshwaric.github.io/swiftmove-india-analytics/dashboard.html" target="_blank" class="btn btn-success btn-sm" style="border-radius:6px; font-size:12px;">🚀 Live Dashboard</a>
-              <a href="https://github.com/malleshwaric/swiftmove-india-analytics" target="_blank" class="btn btn-outline-secondary btn-sm" style="border-radius:6px; font-size:12px;">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Loan Risk -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm" style="border-radius:12px; border:none;">
-          <div class="card-body d-flex flex-column p-4">
-            <div style="font-size:2rem; margin-bottom:12px;">🏦</div>
-            <span class="badge badge-warning mb-2" style="width:fit-content; font-size:10px; color:#fff;">India</span>
-            <h5 class="card-title" style="font-weight:700; font-size:15px;">Bank Loan & Credit Risk Analytics</h5>
-            <p class="card-text text-muted" style="font-size:13px; flex:1;">NPA exposure, approval rates, default risk by credit score band, EMI-to-income ratio, and repayment behavior. 6K customers · 15K applications.</p>
-            <div class="mt-3 d-flex gap-2 flex-wrap">
-              <a href="https://malleshwaric.github.io/loan-risk-india/dashboard.html" target="_blank" class="btn btn-success btn-sm" style="border-radius:6px; font-size:12px;">🚀 Live Dashboard</a>
-              <a href="https://github.com/malleshwaric/loan-risk-india" target="_blank" class="btn btn-outline-secondary btn-sm" style="border-radius:6px; font-size:12px;">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- UPI Finance -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm" style="border-radius:12px; border:none;">
-          <div class="card-body d-flex flex-column p-4">
-            <div style="font-size:2rem; margin-bottom:12px;">💸</div>
-            <span class="badge badge-info mb-2" style="width:fit-content; font-size:10px;">India</span>
-            <h5 class="card-title" style="font-weight:700; font-size:15px;">Personal Finance & UPI Analytics</h5>
-            <p class="card-text text-muted" style="font-size:13px; flex:1;">UPI adoption (62.9%), spending by category and merchant, budget vs actual, savings rate by occupation. 800 users · 108K transactions.</p>
-            <div class="mt-3 d-flex gap-2 flex-wrap">
-              <a href="https://malleshwaric.github.io/upi-finance-india/dashboard.html" target="_blank" class="btn btn-success btn-sm" style="border-radius:6px; font-size:12px;">🚀 Live Dashboard</a>
-              <a href="https://github.com/malleshwaric/upi-finance-india" target="_blank" class="btn btn-outline-secondary btn-sm" style="border-radius:6px; font-size:12px;">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- HR Workforce -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm" style="border-radius:12px; border:none;">
-          <div class="card-body d-flex flex-column p-4">
-            <div style="font-size:2rem; margin-bottom:12px;">👥</div>
-            <span class="badge badge-primary mb-2" style="width:fit-content; font-size:10px;">Global</span>
-            <h5 class="card-title" style="font-weight:700; font-size:15px;">HR Workforce Analytics</h5>
-            <p class="card-text text-muted" style="font-size:13px; flex:1;">Attrition (21.8%), gender pay gap, performance ratings, promotion pipeline, and compensation budget. 3K employees · 12 offices · Americas/EMEA/APAC.</p>
-            <div class="mt-3 d-flex gap-2 flex-wrap">
-              <a href="https://malleshwaric.github.io/hr-workforce-analytics/dashboard.html" target="_blank" class="btn btn-success btn-sm" style="border-radius:6px; font-size:12px;">🚀 Live Dashboard</a>
-              <a href="https://github.com/malleshwaric/hr-workforce-analytics" target="_blank" class="btn btn-outline-secondary btn-sm" style="border-radius:6px; font-size:12px;">GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<div class="section" id="experience">
-  <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>JUNE 2023 - Present</p>
-            <div class="h5">KodNest Technologies</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Full Stack Developer</div>
-            <p>Developed a ReactJS based application for inventory management. Created node services and stored data on MongoDB. Implemented continuous integration and delivery. Learned new front-end technologies and implemented them.  Built new API services for external partners</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>SEPT 2022 - OCT 2022</p>
-            <div class="h5">TechFortune Technologies</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Data Science - Intern</div>
-            <p>Customer Segmentation using Machine Learning in R.
-Descriptive Analysis and Visualization using K-means Clustering Algorithm.
-Datasets : Age, Gender, Annual Income and Spending Score of the customers.
-Unsupervised Learning Data Science customer segmentation model.
-Gathered data for Unsupervised Learning project and analyzed customer segmentation model.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
-    
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2019 - 2023</p>
-            <div class="h5">Bachelor's Degree</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Bachelor of Computer Science</div>
-            <p class="category">KALPATARU INSTITUTE OF TECHNOLOGY</p>
-            <p>Theory and mathematics of computation. Problem analysis. Programming languages, such as Java or Python. Decision loops, variables, and how to write functions. Technical writing</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2017 - 2019</p>
-            <div class="h5">Pre University</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">PCMB</div>
-            <p class="category">Vidhyanikethan PU College</p>
-            <p>With a strong foundation in these core scientific disciplines, I have developed solid analytical and problem-solving skills. My coursework has not only deepened my understanding of the natural sciences but also honed my ability to apply theoretical knowledge to real-world scenarios. I have successfully completed challenging projects and practical assignments, demonstrating my proficiency in both laboratory work and mathematical analysis.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>2017</p>
-            <div class="h5">X Grade</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">10th Std</div>
-            <p class="category">St. Philomena's High School</p>
-            <p>I completed my X grade in the year 2017, demonstrating a commitment to academic excellence and a solid foundation in core subjects. During this period, I consistently maintained high grades, showcasing my dedication to learning and my ability to meet and exceed academic expectations.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="section" id="contact">
-  <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
-    <div class="container">
-      <div class="cc-contact">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card-body">
-                      
-                      <div class="row mb-3">
-                        
-                <div>
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Address:</strong></p>
-                    <p class="pb-2">Bangalore, India</p>
-                    <p class="mb-0"><strong>Phone:</strong></p>
-                    <p class="pb-2">9876543210</p>
-                    <p class="mb-0"><strong>Email:</strong></p>
-                    <p>malleshwaric2001@gmail.com</p>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Details</div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                    <div class="col-sm-8">malleshwaric2001@gmail.com</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Location:</strong></div>
+                    <div class="col-sm-8">Bengaluru, Karnataka</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Languages:</strong></div>
+                    <div class="col-sm-8">English, Kannada, Telugu</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">GitHub:</strong></div>
+                    <div class="col-sm-8"><a href="https://github.com/malleshwaric" target="_blank">github.com/malleshwaric</a></div>
                   </div>
                 </div>
               </div>
@@ -431,11 +151,342 @@ Gathered data for Unsupervised Learning project and analyzed customer segmentati
           </div>
         </div>
       </div>
+
+      <!-- SKILLS -->
+      <div class="section" id="skill">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Skills</div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary skill-analytics">
+                    <span class="progress-badge">SQL (MySQL / PostgreSQL)</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" style="width: 85%;"></div>
+                      <span class="progress-value">85%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary skill-analytics">
+                    <span class="progress-badge">Power BI & DAX</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" style="width: 80%;"></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary skill-analytics">
+                    <span class="progress-badge">Python (pandas, numpy)</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" style="width: 78%;"></div>
+                      <span class="progress-value">78%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary skill-analytics">
+                    <span class="progress-badge">Excel (Pivot Tables, VLOOKUP)</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" style="width: 88%;"></div>
+                      <span class="progress-value">88%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary skill-analytics">
+                    <span class="progress-badge">Data Visualisation</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" style="width: 80%;"></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary skill-analytics">
+                    <span class="progress-badge">SAP ERP & Supply Chain</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" style="width: 72%;"></div>
+                      <span class="progress-value">72%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DATA ANALYTICS PROJECTS -->
+      <div class="analytics-section" id="analytics">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center mb-5">
+              <div class="h4 title mb-2">Data Analytics Projects</div>
+              <p class="text-muted">End-to-end projects — SQL · Python · Power BI · Live Interactive Dashboards</p>
+            </div>
+          </div>
+          <div class="row">
+
+            <!-- ShopKart -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-offset="10">
+              <div class="project-card">
+                <div class="project-icon">🛒</div>
+                <span class="project-badge badge-india">India · Retail</span>
+                <div class="project-title">ShopKart India — E-Commerce Analytics</div>
+                <div class="project-desc">Revenue trends, category margins, customer RFM segmentation, return rate analysis, and discount impact on profitability across 7 product categories.</div>
+                <div class="project-tags">
+                  <span class="tag">SQL</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Power BI</span>
+                  <span class="tag">E-Commerce</span>
+                </div>
+                <div class="d-flex" style="gap:8px; flex-wrap:wrap;">
+                  <a href="https://malleshwaric.github.io/shopkart-india-analytics/dashboard.html" target="_blank" class="btn-dashboard">🚀 Live Dashboard</a>
+                  <a href="https://github.com/malleshwaric/shopkart-india-analytics" target="_blank" class="btn-github">GitHub →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- SwiftMove -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-offset="10">
+              <div class="project-card">
+                <div class="project-icon">🚚</div>
+                <span class="project-badge badge-india">India · Logistics</span>
+                <div class="project-title">SwiftMove India — Logistics Analytics</div>
+                <div class="project-desc">On-time delivery performance, carrier scorecards, RTO analysis, cost-per-shipment benchmarking, and warehouse utilisation across 8 Indian cities.</div>
+                <div class="project-tags">
+                  <span class="tag">SQL</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Power BI</span>
+                  <span class="tag">Supply Chain</span>
+                </div>
+                <div class="d-flex" style="gap:8px; flex-wrap:wrap;">
+                  <a href="https://malleshwaric.github.io/swiftmove-india-analytics/dashboard.html" target="_blank" class="btn-dashboard">🚀 Live Dashboard</a>
+                  <a href="https://github.com/malleshwaric/swiftmove-india-analytics" target="_blank" class="btn-github">GitHub →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Loan Risk -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-offset="10">
+              <div class="project-card">
+                <div class="project-icon">🏦</div>
+                <span class="project-badge badge-india">India · Banking</span>
+                <div class="project-title">Bank Loan & Credit Risk Analytics</div>
+                <div class="project-desc">NPA exposure, default rates by risk category, credit score segmentation, EMI-to-income risk flagging, and repayment behaviour across 55 branches.</div>
+                <div class="project-tags">
+                  <span class="tag">SQL</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Power BI</span>
+                  <span class="tag">Credit Risk</span>
+                </div>
+                <div class="d-flex" style="gap:8px; flex-wrap:wrap;">
+                  <a href="https://malleshwaric.github.io/loan-risk-india/dashboard.html" target="_blank" class="btn-dashboard">🚀 Live Dashboard</a>
+                  <a href="https://github.com/malleshwaric/loan-risk-india" target="_blank" class="btn-github">GitHub →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- UPI Finance -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-offset="10">
+              <div class="project-card">
+                <div class="project-icon">💸</div>
+                <span class="project-badge badge-india">India · Fintech</span>
+                <div class="project-title">Personal Finance & UPI Analytics</div>
+                <div class="project-desc">UPI adoption trends, spending by category and merchant, budget vs actual tracking, and savings rate analysis by occupation across 10 Indian cities.</div>
+                <div class="project-tags">
+                  <span class="tag">SQL</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Power BI</span>
+                  <span class="tag">Fintech</span>
+                </div>
+                <div class="d-flex" style="gap:8px; flex-wrap:wrap;">
+                  <a href="https://malleshwaric.github.io/upi-finance-india/dashboard.html" target="_blank" class="btn-dashboard">🚀 Live Dashboard</a>
+                  <a href="https://github.com/malleshwaric/upi-finance-india" target="_blank" class="btn-github">GitHub →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- HR Workforce -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-offset="10">
+              <div class="project-card">
+                <div class="project-icon">👥</div>
+                <span class="project-badge badge-global">Global · HR</span>
+                <div class="project-title">HR Workforce Analytics</div>
+                <div class="project-desc">Attrition analysis, gender pay equity, performance distribution, promotion pipeline, and compensation budget utilisation across 12 global offices.</div>
+                <div class="project-tags">
+                  <span class="tag">SQL</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Power BI</span>
+                  <span class="tag">HR Analytics</span>
+                </div>
+                <div class="d-flex" style="gap:8px; flex-wrap:wrap;">
+                  <a href="https://malleshwaric.github.io/hr-workforce-analytics/dashboard.html" target="_blank" class="btn-dashboard">🚀 Live Dashboard</a>
+                  <a href="https://github.com/malleshwaric/hr-workforce-analytics" target="_blank" class="btn-github">GitHub →</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub CTA -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-offset="10">
+              <div class="project-card" style="border:2px dashed #e2e8f0; background:#fafafa; justify-content:center; align-items:center; text-align:center;">
+                <div style="font-size:2.5rem; margin-bottom:16px;">💻</div>
+                <div class="project-title" style="color:#64748b;">More on GitHub</div>
+                <p style="font-size:13px; color:#94a3b8; margin-bottom:20px;">All project code, SQL schemas, Python scripts, Power BI DAX guides, and business insights documents.</p>
+                <a href="https://github.com/malleshwaric" target="_blank" class="btn-dashboard" style="background:#1e293b;">View All Repos →</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-divider">
+
+      <!-- EXPERIENCE -->
+      <div class="section" id="experience">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Work Experience</div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>2023 – Present</p>
+                  <div class="h5">Page Industries Ltd</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Supply Chain Analyst — Hassan, Karnataka</div>
+                  <p>Managed inventory tracking and reporting using SAP ERP and Excel dashboards. Built cross-functional reports for procurement, warehouse, and production teams. Identified stock discrepancy patterns and reduced reconciliation time through automated Excel-based tracking. Collaborated with operations and finance teams on monthly MIS reporting.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>Sept 2022 – Oct 2022</p>
+                  <div class="h5">TechFortune Technologies</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Data Science Intern</div>
+                  <p>Customer segmentation using K-means clustering in R. Performed descriptive analysis and visualisation on customer datasets including age, income, and spending score. Built an unsupervised learning model and presented segment findings to stakeholders.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section">
+        <div class="container cc-education">
+          <div class="h4 text-center mb-4 title">Education</div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2019 – 2023</p>
+                  <div class="h5">Bachelor's Degree</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Bachelor of Computer Science</div>
+                  <p class="category">Kalpataru Institute of Technology</p>
+                  <p>Core subjects: data structures, algorithms, database management systems, programming (Java, Python), and software engineering. Strong foundation in problem analysis and computational thinking.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2017 – 2019</p>
+                  <div class="h5">Pre University</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">PCMB</div>
+                  <p class="category">Vidhyanikethan PU College</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2017</p>
+                  <div class="h5">X Grade</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">10th Standard</div>
+                  <p class="category">St. Philomena's High School</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="section" id="contact">
+        <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <div class="h4 text-center title">Get in Touch</div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="card-body">
+                          <div class="row mb-3">
+                            <div>
+                              <div class="card-body">
+                                <p class="mb-0"><strong>Location:</strong></p>
+                                <p class="pb-2">Bengaluru, Karnataka, India</p>
+                                <p class="mb-0"><strong>Email:</strong></p>
+                                <p class="pb-2">malleshwaric2001@gmail.com</p>
+                                <p class="mb-0"><strong>GitHub:</strong></p>
+                                <p><a href="https://github.com/malleshwaric" target="_blank">github.com/malleshwaric</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
-</div></div>
-    </div>
-    
+
     <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
     <script src="js/core/popper.min.js?ver=1.1.0"></script>
     <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
